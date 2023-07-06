@@ -10,9 +10,9 @@ class box{
         cout<<"enter b:";
         cin>>y;
     }
-    friend void find(box t);
+    friend box find(box t);
 };
-void find(box t)
+box find(box t)
 {
     if(t.x>t.y)
     {
