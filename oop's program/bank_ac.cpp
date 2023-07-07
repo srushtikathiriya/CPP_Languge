@@ -15,17 +15,17 @@ class Bank{
         balance = balance - with;
         //return balance;
     }
-    int View_bal(){
+    int show_bal(){
         cout<<"Your Balance Is : "<<balance<<endl;
     }
 };
 int main(){
     int ch;
     Bank b;
-    cout<<"Press 1 for Deposite Amount"<<endl;
-    cout<<"Press 2 for Withdrowl Amount"<<endl;
-    cout<<"Press 3 for Display Your Balance"<<endl;
-    cout<<"Press 0 for Exit";
+    cout<<"choice 1 for Deposite Amount"<<endl;
+    cout<<"choice 2 for Withdrowl Amount"<<endl;
+    cout<<"choice 3 for Display Your Balance"<<endl;
+    cout<<"choice 0 for Exit";
     cout<<"\n\n";
     do{
         cout<<"Choice Your Transaction : ";
@@ -39,7 +39,7 @@ int main(){
             b.Withdrowl();
             break;
         case 3:
-            b.View_bal();
+            b.show_bal();
             break;
         case 0: 
             break;
