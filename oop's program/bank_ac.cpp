@@ -44,7 +44,7 @@ int main(){
         case 0: 
             break;
         default:
-            printf("Wrong Choice...");
+            cout<<"Wrong Choice...";
             break;
     }
     }while(ch!=0);
