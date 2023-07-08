@@ -17,7 +17,7 @@ class derived : public base{
     {
         for(i=1;i<=n;++i)
     {
-       cout<<"square of num is:"<<i*i<<endl;
+       cout<<"square of num is "<< i <<" : "<<i*i<<endl;
     }
     }
 };
